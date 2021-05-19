@@ -1,0 +1,58 @@
+.b-infoHeader {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__titleBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 940px;
+        &_marT {
+            margin-top: 193px;
+        }
+    }
+
+    &__title {
+        font-size: 51px;
+        line-height: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    &__line {
+        width: 107px;
+        height: 8px;
+        opacity: 0.2;
+        background-color: #ffffff;
+    }
+
+    &__text {
+        font-size: 24.1px;
+        line-height: 26px;
+        font-weight: 300;
+        letter-spacing: -0.005em;
+        color: #ffffff;
+        text-align: center;
+        &_marT {
+            margin-top: 25px;
+        }
+    }
+
+    &__button {
+        margin-top: 44px;
+    }
+
+    &__mouseImg {
+        position: absolute;
+        top: 335px;
+        right: 240px;
+    }
+
+    &__arrow {
+        margin-top: 240px;
+    }
+}

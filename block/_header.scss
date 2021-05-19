@@ -1,0 +1,13 @@
+.b-header {
+    background-image: url(img/headerbcg.jpg);
+    height: 765px;
+    &__linkBar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 21px;
+    }
+    &__nav {
+        padding-top: 7px;
+        align-self: center;
+    }
+}
