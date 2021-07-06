@@ -1,0 +1,29 @@
+.b-logo {
+    display: flex;
+
+    &_footer {
+        margin-top: 34px;
+    }
+
+    &__name {
+        font-size: 24.1px;
+        line-height: 15px;
+        font-weight: 700;
+        letter-spacing: -0.005em;
+        color: #ffffff;
+        align-self: center;
+        &_marL {
+            margin-left: 17px;
+        }
+        &_large {
+            font-size: 31.9px;
+            line-height: 20px;
+        }
+    }
+    &__img {
+        &_large {
+            width: 78px;
+            height: 90px;
+        }
+    }
+}

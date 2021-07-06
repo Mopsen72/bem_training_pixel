@@ -1,0 +1,42 @@
+.b-title {
+    font-size: 28.1px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    color: #868686;
+    text-align: center;
+
+    &__underline {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #adadad;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 300;
+        letter-spacing: -0.005em;
+        color: #adadad;
+        width: 520px;
+        margin: 24px auto 0;
+        text-align: center;
+    }
+
+    &_receiveMar {
+        margin-top: 64px;
+    }
+    &_processMar {
+        margin-top: 46px;
+    }
+    &_whatDoWeDoMar {
+        padding-top: 58px;
+        margin-top: 22px;
+    }
+    &_portfolioMar {
+        margin-top: 77px;
+    }
+    &_team {
+        padding-top: 50px;
+    }
+}
